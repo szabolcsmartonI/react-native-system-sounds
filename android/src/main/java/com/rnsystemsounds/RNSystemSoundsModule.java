@@ -33,8 +33,8 @@ public class RNSystemSoundsModule extends ReactContextBaseJavaModule {
         soundMap = new SparseIntArray();
         
         // Példa: néhány rendszerhang betöltése
-        loadSound(1, android.R.raw.notification_simple);
-        loadSound(2, android.R.raw.notification);
+        loadSound(1, R.raw.high);
+        loadSound(2, R.raw.low);
         // További hangok betöltése igény szerint
     }
 
